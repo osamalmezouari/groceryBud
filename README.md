@@ -32,16 +32,14 @@ npm install
 ## Usage
 
 The groceryBud component is designed to be used within your application to manage a grocery list. It provides a form to add new items, checkboxes to mark items as done, and buttons to delete items.
+
+To start the development server, run:
+
 ```
-import React, { useState, useEffect, useRef } from 'react';
-import './grocery-bud.css';
+npm run dev
+```
+Visit http://localhost:3000 in your browser to see the application.
 
-const GroceryBud = () => {
-  // ... (Your component code)
-};
-
-export default GroceryBud;
-  ```
 ## Functionality
 The component offers the following functionality:
 
